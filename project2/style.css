@@ -11,10 +11,14 @@ nav {
 	font-weight: bold;
 }
 
+body {
+	margin: 0;
+}
+
 li {
 	background-color: #4712B3;
-	border: 25px solid hotpink;
-	margin: 0 0 -25px 0;
+	border: 29px solid #c8fd00;
+	margin: 0 0 -29px 0;
 	padding: 35px 0;
 }
 
@@ -42,12 +46,12 @@ a:hover {
 
 a:link {
 	text-decoration: none;
-	color: hotpink;
+	color: #c8fd00;
 }
 
 a:visited {
 	text-decoration: none;
-	color: hotpink;
+	color: #c8fd00;
 }
 
 ul
