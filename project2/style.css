@@ -1,4 +1,28 @@
-p {
-	
-	color: white;}
-	
+header {
+	-webkit-transform: rotate(90deg); 
+	-moz-transform: rotate(90deg);
+	position: fixed;
+	margin: 280px 0 0 400px;
+	font-size: 10em;
+}
+
+body {
+	width: 200px;
+	font-family: Georgia, serif;
+	font-size: 1em;
+	line-height: 2em;
+	margin: 50px auto;
+	font-style: italic;
+}
+
+.fixed {
+	position: fixed;
+	width: 200px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+}
