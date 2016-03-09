@@ -19,21 +19,21 @@ aside {
 	-moz-transform: rotate(90deg);
 	position: fixed;
 	margin: 280px 0 0 400px;
-	font-size: 10em;
+	font-size: 180px;
 }
 
 body {
-	width: 200px;
+	width: 250px;
 	font-family: Georgia, serif;
-	font-size: 1em;
-	line-height: 2em;
+	font-size: 25px;
+	line-height: 65px;
 	margin: 50px auto;
 	font-style: italic;
 }
 
 .fixed {
 	position: fixed;
-	width: 200px;
+	width: 250px;
 }
 
 ul
