@@ -37,16 +37,16 @@ li{
 
 a:link {
 	text-decoration: none;
-	color: gray;
+	color: #a7a7a7;
 }
 
 a:visited {
 	text-decoration: none;
-	color: gray;
+	color: #a7a7a7;
 }
 
 a:hover {
-	color: orange;
+	color: gray;
 }
 
 .iframe1 {
@@ -61,3 +61,11 @@ a:hover {
 	margin: 0 auto;
 	height: 210px;
 }
+
+.zenobia {color: #ff00e7;}
+.despina {color: #b000ff;}
+.diomira {color: #5600ff;}
+
+.navfirst a:hover {color: #ff00e7;}
+.navsecond a:hover {color: #b000ff;}
+.navthird a:hover {color: #5600ff;}
