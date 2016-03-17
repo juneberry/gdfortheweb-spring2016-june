@@ -71,7 +71,8 @@ a:visited {
 }
 
 a:hover {
-	color: #a300ff;
+	color: #bc91ff;
+	cursor: crosshair;
 }
 
 header {
@@ -81,10 +82,11 @@ header {
 	margin-bottom: 140px;
 	line-height: 28px;
 	text-align: left;
-	color: #a300ff;
+	color: #bc91ff;
 	letter-spacing: 0px;
 	display: block;
 	font-family: avenir;
+
 }
 	
 p {
@@ -118,10 +120,21 @@ p {
 	padding: 0;
 }
 
-.zenobia {color: #ff00e7;}
-.despina {color: #b000ff;}
-.diomira {color: #5600ff;}
+div {
+	font-size: 20px;
+	margin: 80px auto;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	display: block;
+	font-family: avenir;
+	border-radius: 50%;
+	width: 50px;
+	padding: 15px 5px;
+	background-color: #cccccc;
+}
 
-.navfirst a:hover {color: #ff00e7;}
-.navsecond a:hover {color: #b000ff;}
-.navthird a:hover {color: #5600ff;}
+div:hover {
+	background-color: #bc91ff;
+	cursor: crosshair;
+}
