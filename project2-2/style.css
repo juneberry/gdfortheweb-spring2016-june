@@ -60,33 +60,46 @@ body {
 	color: black;
 }
 
-a:link {
-	text-decoration: none;
-	color: #cccccc;
-}
-
-a:visited {
-	text-decoration: none;
-	color: #cccccc;
-}
-
-a:hover {
-	color: #bc91ff;
-	cursor: crosshair;
-}
-
 header {
 	font-size: 25px;
 	margin-top: 38px;
-	margin-left: 35px;
-	margin-bottom: 140px;
-	line-height: 28px;
+	margin-left: 28px;
+	margin-bottom: 15px;
+	line-height: 27px;
 	text-align: left;
-	color: #bc91ff;
-	letter-spacing: 0px;
-	display: block;
+	color: white;
 	font-family: avenir;
+	background-color: #cccccc;
+	width: 80px;
+	padding: 7px 10px;
+}
 
+.title:link {
+	text-decoration: none;
+	color: white;
+	font-weight: normal;
+}
+
+.title:visited {
+	text-decoration: none;
+	color: white;
+}
+
+header:hover {
+	background-color: #bc91ff;
+
+}
+
+.intro {
+	font-family: avenir;
+	color: #cccccc;
+	font-size: 16px;
+	line-height: 20px;
+	font-style: italic;
+	width: 200px;
+	text-align: left;
+	margin-left: 35px;
+	margin-bottom: 120px;
 }
 	
 p {
@@ -94,6 +107,21 @@ p {
 	width: 89%;
 	float: left;
 	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	color: #bc91ff;
+	font-weight: bold;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #bc91ff;
+}
+
+a:hover {
+	
 }
 
 .beg {
@@ -120,15 +148,18 @@ p {
 	padding: 0;
 }
 
+
+
 div {
 	font-size: 20px;
-	margin: 80px auto;
+	margin: 140px auto;
 	line-height: 28px;
 	text-align: center;
 	color: white;
+	float: right;
+	margin-right: 35px;
 	display: block;
 	font-family: avenir;
-	border-radius: 50%;
 	width: 50px;
 	padding: 15px 5px;
 	background-color: #cccccc;
@@ -136,5 +167,4 @@ div {
 
 div:hover {
 	background-color: #bc91ff;
-	cursor: crosshair;
 }
