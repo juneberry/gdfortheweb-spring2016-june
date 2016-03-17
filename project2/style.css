@@ -107,8 +107,17 @@ p {
 	margin: 0 auto;
 	height: 210px;
 	display: block;
-	border: 1px solid gray;
+	border: 0px solid gray;
 	margin-bottom: -1px;
+}
+
+.iframe2 {
+	width: 385px;
+	margin: 0 auto;
+	height: 210px;
+	display: block;
+	border: 2px dashed #cccccc;
+	margin-bottom: -2px;
 }
 
 .zenobia {color: #ff00e7;}
