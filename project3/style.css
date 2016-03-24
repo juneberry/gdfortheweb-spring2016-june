@@ -65,7 +65,7 @@ div {
 
 h1 {
 	font-size: 202px;
-	font-family: impact;
+	font-family: impact, sans-serif;
 	text-transform: lowercase;
 	line-height: 200px;
 	text-align: left;
@@ -87,7 +87,7 @@ h1 {
 
 h2 {
 	font-size: 150px;
-	font-family: impact;
+	font-family: impact, sans-serif;
 	text-transform: lowercase;
 	line-height: 150px;
 	text-align: left;
@@ -111,8 +111,8 @@ aside {
 	display: none;
 	font-size: 30px;
 	color: blue;
-	font-family: georgia;
-	font-weight: bold;
+	font-family: georgia, serif;
+	/*font-weight: bold;*/
 	font-style: italic;
 	position: fixed;
 	bottom: 50px;
@@ -127,7 +127,7 @@ aside {
 
 p {
 	font-size: 2em;
-	font-family: impact;
+	font-family: impact, sans-serif;
 	margin-right: 50px;
 	line-height: 40px;
 	text-align: right;
@@ -137,7 +137,7 @@ p {
 
 .intro{
 	font-size: 25px;
-	font-family: sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-weight: bold;
 	line-height: 34px;
 	text-align: left;
