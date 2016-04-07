@@ -31,4 +31,4 @@ $(".daniel").click(function() {
 	$(".bothpic").toggle();
 });
 
-setInterval(function(){ alert("Hello"); }, 3000);
+setInterval(function(){ alert("TODAY!"); }, 7000);
