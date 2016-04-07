@@ -143,6 +143,8 @@ p {
 }
 
 
+
+
 .intro{
 	font-size: 25px;
 	font-family: Times, serif;
@@ -195,6 +197,13 @@ a:hover {
 	width: 600px;
 	z-index: 0;
 	opacity: 0.7;
+}
+
+.risd {
+	float: left;
+	width: 400px;
+	z-index: 0;
+	opacity: 1;
 }
 
 .bothpic {
