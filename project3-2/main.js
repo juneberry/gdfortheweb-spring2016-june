@@ -31,4 +31,4 @@ $(".daniel").click(function() {
 	$(".bothpic").toggle();
 });
 
-setInterval(function(){ alert("TODAY! TODAY! TODAY! TODAY!"); }, 7000);
+setInterval(function(){ alert("TODAY! TODAY! TODAY! TODAY! TODAY! TODAY! TODAY! TODAY!"); }, 7000);
