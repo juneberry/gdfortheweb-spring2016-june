@@ -192,6 +192,21 @@ img {
 }
 
 @media print {
+	.nav {
+		display: none;}
+	canvas {
+		width: 600px;
+		margin: 100px auto;
+		display: block;
+	}
+	#story {
+		width: 800px;
+		font-size: 14px;
+		margin: 20px auto;
+		display: block;
+	}
+
+
     .black {
         background-color: white;
         color: black;

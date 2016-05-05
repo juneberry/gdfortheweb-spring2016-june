@@ -14,7 +14,7 @@ $(function() {
 	$("#story").append(text[SentencesSplit[10]] + " ");
 	$("#story").append(text[SentencesSplit[13]]);
 
-	console.log(SentencesSplit);
+	// console.log(SentencesSplit);
 
 	/* re-draw the city image */
 
@@ -56,7 +56,7 @@ $(function() {
 
 	var cityname = SentencesSplit[1] + SentencesSplit[4] + SentencesSplit[7] + SentencesSplit[10] + SentencesSplit[13];
 	$("#cityname3").html(cityname);
-	console.log (cityname);
+	// console.log (cityname);
 
 
 	redrawCanvas();
@@ -69,7 +69,14 @@ $(function() {
 	function print() {
     window.print();
 	}
+	// window.onload = function() {
 
+	//     $('body').html('before print');
+
+	//     console.log('before print');
+
+	//     window.print();
+	// };
 
 	/*
 	$("#othercities").click(function() {
