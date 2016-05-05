@@ -74,11 +74,24 @@ a:hover {
 	width: 400px;
 }
 
-.nav a {
+#save {
+	color: gray;
+	font-size: 20px;
+	font-family: monospace;
+	text-decoration: none;
+	line-height: 34px;
+}
+
+#save:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.nav li a {
 	color: gray;
 }
 
-.nav a:hover {
+.nav li a:hover {
 	color: white;
 }
 
@@ -119,12 +132,11 @@ a:hover {
     overflow-y: scroll;
 }
 
-#story {
+p {
 	color: white;
 	font-size: 26px;
 	font-family: monospace;
 	line-height: 36px;
-	margin: 100px;
 	width: 800px;
 }
 
@@ -135,4 +147,58 @@ a:hover {
 
 img {
 	margin-bottom: 100px;
+}
+
+#smallCanvas {
+	/*border: 1px solid white;*/
+	margin-top: 100px;
+	margin-left: 25px;
+
+}
+
+#story {
+	color: white;
+	font-size: 26px;
+	font-family: monospace;
+	line-height: 36px;
+	margin: 100px;
+}
+
+#cityname2 {
+	color: orange;
+	width: 100%;
+	margin-left: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 100px;
+}
+
+.citylist {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 20px;
+	margin-top: 100px;
+}
+
+#cityname4 {
+	color: gray;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+
+#cityname4:hover {
+	color: white;
+}
+
+@media print {
+    .black {
+        background-color: white;
+        color: black;
+    }
+
+    p{
+
+    	color: black;
+    }
 }
