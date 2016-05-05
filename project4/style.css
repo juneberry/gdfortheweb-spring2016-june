@@ -193,14 +193,19 @@ img {
 
 @media print {
 	.nav {
-		display: none;}
+		display: none;
+	}
+	#cityname2 {
+		width: 500px;
+		display: block;
+	}
 	canvas {
-		width: 600px;
+		width: 500px;
 		margin: 100px auto;
 		display: block;
 	}
 	#story {
-		width: 800px;
+		width: 500px;
 		font-size: 14px;
 		margin: 20px auto;
 		display: block;
