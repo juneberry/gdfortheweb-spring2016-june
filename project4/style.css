@@ -196,17 +196,19 @@ img {
 		display: none;
 	}
 	#cityname2 {
-		width: 500px;
+		width: 300px;
 		display: block;
+		font-size: 14px;
 	}
 	canvas {
-		width: 500px;
+		width: 300px;
 		margin: 100px auto;
 		display: block;
 	}
 	#story {
-		width: 500px;
+		width: 300px;
 		font-size: 14px;
+		line-height: 18px;
 		margin: 20px auto;
 		display: block;
 	}
