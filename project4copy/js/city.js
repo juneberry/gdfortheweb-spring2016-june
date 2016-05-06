@@ -22,8 +22,8 @@ $(function() {
 
 	var redrawCanvas = function() {
 
-		var smallCanvasW = Math.floor(($(window).width()) / 4);
-		var smallCanvasH = Math.floor((($(window).width()) / 4) * ($(window).height()) / ($(window).width()));
+		var smallCanvasW = $("#smallCanvas").width();
+		var smallCanvasH = $("#smallCanvas").width() * ($(window).height()) / ($(window).width());
 
 		$("#smallCanvas").css("width", smallCanvasW);
 		$("#smallCanvas").css("height", smallCanvasH);
@@ -62,8 +62,8 @@ $(function() {
 	redrawCanvas();
 	$(window).on("load resize", redrawCanvas);
 
-	function print() {
-    $(".black").print();
+function print() {
+    $("body").print();
 	}
 
 	// function print() {
