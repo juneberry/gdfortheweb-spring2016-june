@@ -183,35 +183,37 @@ text[155] = "The twin cities are not equal, because nothing that exists or happe
 text[156] = "The two Valdradas live for each other, their eyes interlocked; but there is no love between them.";
 	/* City 21: Olivia */
 text[157] = "No one, wise Kublai, knows better than you that the city must never be confused with the words that describe it.";
-text[158] = "";
-text[159] = "";
-text[160] = "";
-text[161] = "";
-text[162] = "";
-text[163] = "";
-text[164] = "";
-text[165] = "";
+text[158] = "And yet between the one and the other there is a connection.";
+text[159] = "If I describe to you Olivia, a city rich in products and in profits, I can indicate its prosperity only by speaking of filigree palaces with fringed cushions on the seats by the mullioned windows.";
+text[160] = "Beyond the screen of a patio, spinning jets water a lawn where a white peacock spreads its tail.";
+text[161] = "But from these words you realize at once how Olivia is shrouded in a cloud of soot and grease that sticks to the houses, that in the brawling streets, the shifting trailers crush pedestrians against the walls.";
+text[162] = "If I must speak to you of the inhabitants’ industry, I speak of the saddlers’ shops smelling of leather, of the women chattering as they weave raffia rugs, of the hanging canals whose cascades move the paddles of the mills; but the image these words evoke in your enlightened mind is of the mandrel set against the teeth of the lathe, an action repeated by thousands of hands thousands of times at the pace established for each shift.";
+text[163] = "If I must explain to you how Olivia’s spirit tends toward a free life and a refined civilization, I will tell you of ladies who glide at night in illuminated canoes between the banks of a green estuary; but it is only to remind you that on the outskirts where men and women land every evening like lines of sleepwalkers, there is always someone who bursts out laughing in the darkness, releasing the flow of jokes and sarcasm.";
+text[164] = "This perhaps you do not know: that to talk of Olivia, I could not use different words.";
+text[165] = "If there really were an Olivia of mullioned windows and peacocks, of saddlers and rug-weavers and canoes and estuaries, it would be a wretched, black, fly-ridden hole, and to describe it, I would have to fall back on the metaphors of soot, the creaking of wheels, repeated actions, sarcasm.";
 text[166] = "Falsehood is never in words; it is in things.";
 	/* City 22: Sophronia */
 text[167] = "The city of Sophronia is made up of two half-cities. In one there is the great roller coaster with its steep humps, the carousel with its chain spokes, the Ferris wheel of spinning cages, the death-ride with crouching motorcyclists, the big top with the clump of trapezes hanging in the middle.";
-text[168] = "";
-text[169] = "";
-text[170] = "";
+text[168] = "The other half-city is of stone and marble and cement, with the bank, the factories, the palaces, the slaughterhouse, the school, and all the rest.";
+text[169] = "One of the half-cities is permanent, the other is temporary, and when the period of its sojourn is over, they uproot it, dismantle it, and take it off, transplanting it to the vacant lots of another half-city.";
+text[170] = "And so every year the day comes when the workmen remove the marble pediments, lower the stone walls, the cement pylons, take down the Ministry, the monument, the docks, the petroleum refinery, the hospital, load them on trailers, to follow from stand to stand their annual itinerary.";
 text[171] = "Here remains the half-Sophronia of the shooting-galleries and the carousels, the shout suspended from the cart of the headlong roller coaster, and it begins to count the months, the days it must wait before the caravan returns and a complete life can begin again.";
 	/* City 23: Eutropia */
 text[172] = "When he enters the territory of which Eutropia is the capital, the traveler sees not one city but many, of equal size and not unlike one another, scattered over a vast, rolling plateau.";
-text[173] = "";
-text[174] = "";
-text[175] = "";
-text[176] = "";
-text[177] = "";
-text[178] = "";
+text[173] = "Eutropia is not one, but all these cities together; only one is inhabited at a time, the others are empty; and this process is carried out in rotation.";
+text[174] = "Now I shall tell you how.On the day when Eutropia’s inhabitants feel the grip of weariness and no one can bear any longer his job, his relatives, his house and his life, debts, the people he must greet or who greet him, then the whole citizenry decides to move to the next city, which is there waiting for them, empty and good as new; there each will take up a new job, a different wife, will see another landscape on opening his window, and will spend his time with different pastimes, friends, gossip.";
+text[175] = "On the day when Eutropia’s inhabitants feel the grip of weariness and no one can bear any longer his job, his relatives, his house and his life, debts, the people he must greet or who greet him, then the whole citizenry decides to move to the next city, which is there waiting for them, empty and good as new; there each will take up a new job, a different wife, will see another landscape on opening his window, and will spend his time with different pastimes, friends, gossip.";
+text[176] = "So their life is renewed from move to move, among cities whose exposure or declivity or streams or winds make each site somehow different from the others.";
+text[177] = "Since their society is ordered without great distinctions of wealth or authority, the passage from one function to another takes place almost without jolts; variety is guaranteed by the multiple assignments, so that in the span of a lifetime a man rarely returns to a job that has already been his.";
+text[178] = "Thus the city repeats its life, identical, shifting up and down on its empty chessboard.";
+text.push("The inhabitants repeat the same scenes, with the actors changed; they repeat the same speeches with variously combined accents; they open alternate mouths in identical yawns.");
+text.push("Alone, among all the cities of the empire, Eutropia remains always the same.");
 text[179] = "Mercury, god of the fickle, to whom the city is sacred, worked this ambiguous miracle.";
 	/* City 24: Zemrude */
 text[180] = "It is the mood of the beholder which gives the city of Zemrude its form.";
-text[181] = "";
-text[182] = "";
-text[183] = "";
+text[181] = "If you go by whistling, your nose a-tilt behind the whistle, you will know it from below: window sills, flapping curtains, fountains.";
+text[182] = "If you walk along hanging your head, your nails dug into the palms of your hands, your gaze will be held on the ground, in the gutters, the manhole covers, the fish scales, wastepaper.";
+text[183] = "You cannot say that one aspect of the city is truer than the other, but you hear of the upper Zemrude chiefly from those who remember it, as they sink into the lower Zemrude, following every day the same stretches of street and finding again each morning the ill-humor of the day before, encrusted at the foot of the walls.";
 text[184] = "";
 text[185] = "The reverse is not impossible, but it is more rare: and so we continue walking through Zemrude’s streets with eyes now digging into the cellars, the foundations, the wells.";
 	/* City 25: Aglaura */

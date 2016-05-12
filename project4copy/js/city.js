@@ -14,7 +14,7 @@ $(function() {
 	$("#story").append(text[SentencesSplit[10]] + " ");
 	$("#story").append(text[SentencesSplit[13]]);
 
-	// console.log(SentencesSplit);
+	console.log(text.length);
 
 	/* re-draw the city image */
 
@@ -29,7 +29,7 @@ $(function() {
 		$("#smallCanvas").css("height", smallCanvasH);
 
 		var cols = 25;
-		var rows = 20;
+		var rows = 22;
 
 		var stroke1 = new Point (smallCanvasW / cols * SentencesSplit[2], smallCanvasH * SentencesSplit[3] / rows);
 		var stroke2 = new Point (smallCanvasW / cols * SentencesSplit[5], smallCanvasH * SentencesSplit[6] / rows);
@@ -65,6 +65,11 @@ $(function() {
 function print() {
     $("body").print();
 	}
+
+function goBack() {
+    window.history.back();
+}
+
 
 	// function print() {
  //    window.print();

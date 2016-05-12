@@ -35,6 +35,7 @@ function onMouseDown(event) {
 	city = city + "," + sentence + "," + mouseCol + "," + mouseRow;
 	$("a#enter").attr("href", "citydetail.html#" + city);
 
+	console.log (city);
 	// save that sentence to the city's name, and show it
 
 	cityname = cityname + sentence;
@@ -57,14 +58,10 @@ function onMouseDown(event) {
 		myPath.add(event.point);
 	}
 	if (count == 5) {
-		$("body").css("background-color", "black");
-		$(".enter").show();
+		$("body").css('background', 'black');
+		$(".enter").fadeIn(2000);
 	}
 }
-
-
-
-
 
 
 
