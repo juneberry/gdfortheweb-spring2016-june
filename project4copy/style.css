@@ -200,7 +200,7 @@ p {
 	left: 100px;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 20px;
+	font-size: 24px;
 	margin-top: 100px;
 	font-family: 'Inconsolata', monospace;
 
@@ -240,9 +240,9 @@ p {
 
 #story {
 	color: white;
-	font-size: 28px;
+	font-size: 24px;
 	font-family: 'Inconsolata', monospace;
-	line-height: 40px;
+	line-height: 32px;
 	margin: 100px;
 	margin-bottom: 400px;
 }
@@ -263,7 +263,9 @@ p {
 	#cityname2 {
 		width: 1275px;
 		margin: 150px auto;
-		margin-bottom: 0;
+		position: fixed;
+		left: 0px;
+		text-align: center;
 	}
 
 	.black {
@@ -274,5 +276,7 @@ p {
 		width: 775px;
 		color: black;
 		margin-left: 250px;
+		font-size: 20px;
+		margin-top: -10px;
 	}
 }
